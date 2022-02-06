@@ -1,0 +1,40 @@
+apiVersion: v1
+entries:
+  helm-guestbook:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-02-06T15:02:07.560432-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 1b0c4a0e5ec7b54e2f56e481e5e62dbb70a7fb37aedd7bed062d8cb0c43df610
+    name: helm-guestbook
+    type: application
+    urls:
+    - https://georgech91.github.io/my-helm-repo/helm-guestbook-0.1.0.tgz
+    version: 0.1.0
+  helm-hooks-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-06T15:02:07.561971-05:00"
+    description: A Helm chart for Kubernetes
+    digest: bb4813ad509bb4e3fe840286990f28378e73bc1df7e19b2f1e1e2e70e803b5e6
+    name: helm-hooks-test
+    type: application
+    urls:
+    - https://georgech91.github.io/my-helm-repo/helm-hooks-test-0.1.0.tgz
+    version: 0.1.0
+  wordpress:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-02-06T15:02:07.572074-05:00"
+    dependencies:
+    - name: wordpress
+      repository: https://charts.helm.sh/stable
+      version: 9.0.3
+    description: A Helm chart for Kubernetes
+    digest: 6b7dafaa3d06f97df1db569e71a14e517b74b295623fc0516f1b4510689a57e7
+    name: wordpress
+    type: application
+    urls:
+    - https://georgech91.github.io/my-helm-repo/wordpress-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-06T15:02:07.558596-05:00"
